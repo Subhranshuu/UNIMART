@@ -1,0 +1,9 @@
+.shift-left {
+    width: 100px; /* Increased width for better visibility */
+    color: #ffffff;
+    background-color: #007bff; /* Optional: Add a background color */
+    border-radius: 8px; /* Smooth rounded corners */
+    padding: 8px 12px; /* Added padding for better appearance */
+    text-align: center; /* Centers text */
+    font-weight: bold;
+}

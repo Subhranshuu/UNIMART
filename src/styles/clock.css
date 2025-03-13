@@ -1,0 +1,90 @@
+/* Default styles */
+.clock__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.clock__data {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.clock__data h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 0.3rem;
+}
+
+.clock__data h5 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* Separator styles */
+.clock__wrapper span {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 992px) {
+    .clock__wrapper {
+        justify-content: center;
+        gap: 0.8rem;
+    }
+
+    .clock__data h1 {
+        font-size: 1.5rem;
+    }
+
+    .clock__data h5 {
+        font-size: 1rem;
+    }
+
+    .clock__wrapper span {
+        font-size: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .clock__wrapper {
+        gap: 0.6rem;
+    }
+
+    .clock__data h1 {
+        font-size: 1.2rem;
+    }
+
+    .clock__data h5 {
+        font-size: 0.9rem;
+    }
+
+    .clock__wrapper span {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .clock__wrapper {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    .clock__data h1 {
+        font-size: 1rem;
+    }
+
+    .clock__data h5 {
+        font-size: 0.8rem;
+    }
+
+    .clock__wrapper span {
+        display: none; /* Hide colons on small screens */
+    }
+}
